@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("Good morning, You!");
+        System.out.printf("Good morning, You!\n");
 
         String[] names = {"Piotr", "Anna", "Jan", "Leszek"};
 
