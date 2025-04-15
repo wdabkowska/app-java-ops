@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("Good morning, You!\n");
+        System.out.printf("Good morning, You!");
 
         String[] names = {"Piotr", "Anna", "Jan", "Leszek"};
 
         for (int i = 1; i <= 4; i++) {
-            System.out.println("i = " + i + ", name = " + names[i - 1]);
+            System.out.println("" + i + " + names[i - 1]);
         }
     }
 }
