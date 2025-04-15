@@ -21,7 +21,7 @@ pipeline {
                 // Create a directory for compiled classes
                 bat 'if not exist build\\classes mkdir build\\classes'
                 // Kompilacja Main.java
-                bat '"C:\\Program Files\\Java\\jdk-21\\bin\\javac" -d build\\classes src\\Main.java"'
+                bat '"C:\\Program Files\\Java\\jdk-21\\bin\\javac" -d build\\classes src\\*.java"'
             }
         }
 
