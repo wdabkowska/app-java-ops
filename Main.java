@@ -5,7 +5,7 @@ public class Main {
         String[] names = {"Piotr", "Anna", "Jan", "Leszek"};
 
         for (int i = 1; i <= 4; i++) {
-            System.out.println("" + i + " + names[i - 1]);
+            System.out.println(i + "." + names[i - 1]);
         }
     }
 }
